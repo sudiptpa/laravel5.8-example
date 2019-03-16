@@ -44,4 +44,8 @@ return [
         ],
     ],
 
+    'esewa' => [
+        'merchant' => env('ESEWA_MERCHANT'),
+        'sandbox' => env('ESEWA_SANDBOX', true),
+    ],
 ];
