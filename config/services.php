@@ -12,7 +12,7 @@ return [
     | default location for this type of information, allowing packages
     | to have a conventional place to find your various credentials.
     |
-    */
+     */
 
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
@@ -47,5 +47,11 @@ return [
     'esewa' => [
         'merchant' => env('ESEWA_MERCHANT'),
         'sandbox' => env('ESEWA_SANDBOX', true),
+    ],
+
+    'zippay' => [
+        'public_key' => env('ZIPPAY_PUBLIC_KEY'),
+        'private_key' => env('ZIPPAY_PRIVATE_KEY'),
+        'sandbox' => env('ZIPPAY_SANDBOX', true),
     ],
 ];

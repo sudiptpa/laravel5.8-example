@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6374b884865fbb12fcc35a093221ead",
+    "content-hash": "9d19bfb936468b20c4b32ee46fb1127a",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -602,6 +602,58 @@
             "time": "2018-12-04T20:46:45+00:00"
         },
         {
+            "name": "ignited/omnipay-zippay",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ignited/omnipay-zippay.git",
+                "reference": "f7c3da0acd56b7577205f6408887d02576aa0372"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ignited/omnipay-zippay/zipball/f7c3da0acd56b7577205f6408887d02576aa0372",
+                "reference": "f7c3da0acd56b7577205f6408887d02576aa0372",
+                "shasum": ""
+            },
+            "require": {
+                "omnipay/common": "~3.0"
+            },
+            "require-dev": {
+                "omnipay/tests": "~3.0",
+                "phpro/grumphp": "^0.14",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\ZipPay\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Condie",
+                    "email": "daniel@ignitedlabs.com.au"
+                }
+            ],
+            "description": "Provides ZipPay support for Omnipay payment processing library",
+            "homepage": "https://github.com/ignited/omnipay-zippay",
+            "keywords": [
+                "omnipay",
+                "zip",
+                "zipPay"
+            ],
+            "time": "2019-02-08T04:44:47+00:00"
+        },
+        {
             "name": "jakub-onderka/php-console-color",
             "version": "v0.2",
             "source": {
@@ -985,22 +1037,22 @@
         },
         {
             "name": "league/omnipay",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/omnipay.git",
-                "reference": "1514469083290aa53102440bae19313b6c8d7900"
+                "reference": "9e10d91cbf84744207e13d4483e79de39b133368"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/omnipay/zipball/1514469083290aa53102440bae19313b6c8d7900",
-                "reference": "1514469083290aa53102440bae19313b6c8d7900",
+                "url": "https://api.github.com/repos/thephpleague/omnipay/zipball/9e10d91cbf84744207e13d4483e79de39b133368",
+                "reference": "9e10d91cbf84744207e13d4483e79de39b133368",
                 "shasum": ""
             },
             "require": {
                 "omnipay/common": "^3",
                 "php": "^5.6|^7",
-                "php-http/guzzle6-adapter": "^1.1"
+                "php-http/guzzle6-adapter": "^1.1|^2"
             },
             "require-dev": {
                 "omnipay/tests": "^3"
@@ -1025,58 +1077,15 @@
                     "email": "barryvdh@gmail.com"
                 }
             ],
-            "description": "Includes Omnipay payment processing library and all officially supported gateways",
+            "description": "Omnipay payment processing library",
             "homepage": "https://omnipay.thephpleague.com/",
             "keywords": [
-                "2checkout",
-                "2co",
-                "auth.net",
-                "authorize",
-                "authorize.net",
-                "buckaroo",
-                "cardsave",
-                "checkoutcom",
-                "coinbase",
-                "commweb",
-                "cybersource",
-                "dps",
-                "egate",
-                "eway",
-                "express",
-                "first data",
-                "firstdata",
-                "gateway",
-                "gocardless",
-                "ideal",
-                "merchant",
-                "migs",
-                "mollie",
-                "multisafepay",
-                "netaxept",
-                "netbanx",
-                "pagarme",
-                "pay",
-                "payfast",
-                "payflow",
-                "payment",
-                "paymentexpress",
-                "payone",
-                "paypal",
-                "payu",
-                "pin",
-                "purchase",
-                "rapid",
-                "sagepay",
-                "securepay",
-                "stripe",
-                "tala",
-                "tala-payments",
-                "targetpay",
-                "tpay",
-                "twocheckout",
-                "worldpay"
+                "checkout",
+                "creditcard",
+                "omnipay",
+                "payment"
             ],
-            "time": "2018-05-15T07:26:49+00:00"
+            "time": "2019-03-20T14:28:28+00:00"
         },
         {
             "name": "moneyphp/money",

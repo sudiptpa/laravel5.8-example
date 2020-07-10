@@ -93,6 +93,7 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                     <a href="{{ route('checkout.payment.esewa') }}">eSewa</a>
+                    <a href="{{ route('checkout.payment.zippay') }}">ZipPay</a>
                 </div>
             </div>
         </div>
